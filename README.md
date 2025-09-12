@@ -18,7 +18,7 @@ The output is a clean, structured dataset ready for analysis by ornithologists a
 * **Image Preprocessing**: Scripts to clean and enhance scanned images for better OCR accuracy.
 * **Tesseract OCR Integration**: Uses the Tesseract engine to recognize and extract text from defined regions of interest (ROIs) on the paper forms.
 * **Custom CNN for Handwriting**: A trained CNN model specifically designed to interpret difficult-to-read handwritten fields, improving on Tesseract's general-purpose capabilities.
-* **Data Validation**: A post-processing step to validate and clean the extracted data, checking for inconsistencies and formatting errors.
+<!-- * **Data Validation**: A post-processing step to validate and clean the extracted data, checking for inconsistencies and formatting errors.
 * **Automated Pipeline**: A complete workflow that takes a raw scan as input and outputs a structured CSV or JSON file.
 
 ---
@@ -70,4 +70,4 @@ The output is a clean, structured dataset ready for analysis by ornithologists a
 To run the full data extraction pipeline on a single image:
 
 ```bash
-python run_pipeline.py --image_path "path/to/your/scanned_bird_sheet.png"
+python run_pipeline.py --image_path "path/to/your/scanned_bird_sheet.png" -->
